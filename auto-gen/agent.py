@@ -5,6 +5,9 @@ from typing import List, Tuple
 from connectonion import Agent, llm_do
 from git import Repo
 from jinja2 import Template
+from dotenv import load_dotenv
+load_dotenv()
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PROMPTS_DIR = Path(__file__).parent / "prompts"
