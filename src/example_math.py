@@ -1,5 +1,5 @@
 def sub(a: int, b: int) -> int:
-    """Add two integers."""
+    """sub two integers."""
     return a - b
 
 def multiply(a: int, b: int) -> int:
