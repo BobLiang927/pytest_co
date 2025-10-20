@@ -99,7 +99,8 @@ agent = Agent(
         write_file,
         commit_and_push,
     ],
-    max_iterations=20
+    max_iterations=20,
+    model="co/gpt-4o-mini"
 )
 
 if __name__ == "__main__":
