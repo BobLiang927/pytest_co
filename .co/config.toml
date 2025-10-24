@@ -1,7 +1,7 @@
 [project]
 name = "connectOnion"
-created = "2025-10-19T17:19:11.628486"
-framework_version = "0.3.1"
+created = "2025-10-24T17:25:24.738588"
+framework_version = "0.3.4"
 
 [cli]
 version = "1.0.0"
@@ -9,11 +9,11 @@ command = "co init"
 template = "none"
 
 [agent]
-address = "0xd82857dc2a190cf971b22997513f301c504a353efe79befa0eeb936eeb2ef9ad"
-short_address = "0xd828...f9ad"
-email = "0xd82857dc@mail.openonion.ai"
+address = "0x2d799bf466619f7db42606764e64c09da651dd2ab142092ab7e207e617daf5c9"
+short_address = "0x2d79...f5c9"
+email = "0x2d799bf4@mail.openonion.ai"
 email_active = true
-created_at = "2025-10-19T17:19:11.628500"
+created_at = "2025-10-24T17:25:24.738598"
 algorithm = "ed25519"
 default_model = "gpt-4o-mini"
 max_iterations = 10
